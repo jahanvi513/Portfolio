@@ -62,7 +62,7 @@ export const IntroSection = () => {
 
             {/* Description */}
             <p className="text-lg md:text-xl text-muted-foreground max-w-lg mb-12 leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
-              Insert Description
+              A Computer Science Undergrad. I enjoy exploring cybersecurity, AI and building fun web apps. In my free time, you'll find me with a book or my cat!
             </p>
 
             {/* CTA Buttons */}
