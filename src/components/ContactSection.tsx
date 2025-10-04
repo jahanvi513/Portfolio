@@ -96,11 +96,11 @@ export const ContactSection = () => {
 
         {/* Footer */}
         <div className={`text-center mt-16 pt-8 border-t border-border scroll-fade-in ${isVisible ? 'visible' : ''}`}>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          {/* <div className="flex flex-col md:flex-row justify-between items-center gap-4"> */}
             <p className="text-sm text-muted-foreground">
               Made with ❤️ by Jahanvi
             </p>
-            <div className="flex items-center gap-4">
+            {/* <div className="flex items-center gap-4">
               {contactMethods.map((method) => (
                 <Button
                   key={method.name}
@@ -112,8 +112,8 @@ export const ContactSection = () => {
                   <method.icon className="w-4 h-4" />
                 </Button>
               ))}
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
       </div>
     </section>
